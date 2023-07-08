@@ -46,9 +46,9 @@
             <h1>Donatic</h1>
         </div>
         <div class="slogan">
-            <p>Donation Platform for NGOs</p>
+            <p>A Decentralized Donation Platform for NGOs</p>
         </div>
-    <img src="./main-bg.png" id="bg-main">
+        <video playsinline muted loop autoplay width="100%" height="100%" id="bg-main"> <source src="./spectrum-vid.mp4"> </video>
     </div>
     <section class="data-area">
         <div class="data-container p-8 backdrop-blur-md">
@@ -57,12 +57,12 @@
             <div class="form-table-container">
                 <form id="add-form" class=" mb-2">
                     <div class="form-group col-span-5">
-                      <select id="sector" class="bg-black border-2 border-purple-900 text-white rounded-lg w-full p-2 " required>
-    <option value="" disabled selected>Category</option>
-    <option value="health">Health Sector</option>
-    <option value="education">Education Sector</option>
-    <option value="environment">Environment Sector</option>
-  </select>
+                <select id="sector" class="bg-black border-2 border-purple-900 text-white rounded-lg w-full p-2 " required>
+                    <option value="" disabled selected>Category</option>
+                    <option value="health">Health Sector</option>
+                    <option value="education">Education Sector</option>
+                    <option value="environment">Environment Sector</option>
+                </select>
                         <label for="amount" class="block text-lg tracking-wider pt-2 pb-1 pl-1">Amount</label>
                         <input type="number" min="0.000000000000000001" step="any" class="form-control  bg-black border-2 border-purple-900 text-white rounded-lg w-full p-2" id="amount" placeholder="0.0">
                     </div>
@@ -70,6 +70,7 @@
                 <div class="flex pt-3">
                     <button type="submit" id="sendButton" class="btn btn-primary btn-send w-fit text-center bg-gradient-to-br from-purple-600 to-indigo-600 text-white rounded-3xl float-left send mr-6">Send</button>
                 </div>
+                <img src="./prism.png" class="bg-div-img">
             </div>
     </section>
     
@@ -78,7 +79,7 @@
                 <p class="my-6 text-gray-400">We rise by lifting others.</p>
                 <ul class="flex flex-wrap justify-center items-center mb-6 text-white">
                     <li>
-                        <a href="#" class="mr-4 hover:underline md:mr-6 ">About Us</a>
+                        <a href="./about-us.html" class="mr-4 hover:underline md:mr-6 ">About Us</a>
                     </li>
                     <li>
                         <a href="#" class="mr-4 hover:underline md:mr-6">Contact</a>
