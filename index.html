@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donatic</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@metamask/detect-provider@1.2.0/dist/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@walletconnect/web3-provider@1.6.6/dist/umd/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.6.1/dist/web3.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    
+</head>
+<body class="scroll-smooth">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    Donatic
+                </a>
+                <button class ="navbar-toggler" type ="button" data-toggle ="collapse" data-target ="#navbarSupportedContent">
+                    <span class ="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse pr-40" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto capitalize">
+                        <li class="nav-item">
+                            <a class="nav-link tracking-wider" href="./register.html">register your NGO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about-us.html">about us</a>
+                        </li>
+                    </ul>
+                    <button id="connect-wallet" class="btn connection font-medium hover:border-2 py-0.5" >Connect Wallet</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <div class="logo-banner">
+            <h1>Donatic</h1>
+        </div>
+        <div class="slogan">
+            <p>Donation Platform for NGOs</p>
+        </div>
+    <img src="./main-bg.png" id="bg-main">
+    </div>
+    <section class="data-area">
+        <div class="data-container p-8 backdrop-blur-md">
+            <div id="userAcc" class="pb-3 font-thin tracking-wide text-slate-500"></div>
+            <div class="title-donate pb-4 text-center fw-bold tracking-wider uppercase">Donate</div>
+            <div class="form-table-container">
+                <form id="add-form" class=" mb-2">
+                    <div class="form-group col-span-5">
+                      <select id="sector" class="bg-black border-2 border-purple-900 text-white rounded-lg w-full p-2 " required>
+    <option value="" disabled selected>Category</option>
+    <option value="health">Health Sector</option>
+    <option value="education">Education Sector</option>
+    <option value="environment">Environment Sector</option>
+  </select>
+                        <label for="amount" class="block text-lg tracking-wider pt-2 pb-1 pl-1">Amount</label>
+                        <input type="number" min="0.000000000000000001" step="any" class="form-control  bg-black border-2 border-purple-900 text-white rounded-lg w-full p-2" id="amount" placeholder="0.0">
+                    </div>
+                </form>
+                <div class="flex pt-3">
+                    <button type="submit" id="sendButton" class="btn btn-primary btn-send w-fit text-center bg-gradient-to-br from-purple-600 to-indigo-600 text-white rounded-3xl float-left send mr-6">Send</button>
+                </div>
+            </div>
+    </section>
+    
+        <footer class="p-4 md:p-8 lg:p-10 mt-64">
+            <div class="mx-auto max-w-screen-xl text-center pt-12">
+                <p class="my-6 text-gray-400">We rise by lifting others.</p>
+                <ul class="flex flex-wrap justify-center items-center mb-6 text-white">
+                    <li>
+                        <a href="#" class="mr-4 hover:underline md:mr-6 ">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mr-4 hover:underline md:mr-6">Contact</a>
+                    </li>
+                </ul>
+                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023.<a href="#" class="hover:underline">Donatic™</a>. All Rights Reserved.</span>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+</body>
+</html>
