@@ -23,7 +23,7 @@ left: 0;
 width: 100%;
 height: 100%;
 object-fit: fill;
-filter: blur(70px);
+filter: blur(0px);
 }
 
 .logo-banner {
@@ -34,7 +34,7 @@ height: 15vh;
 font-size: 4.5rem;
 height: fit-content;
 font-weight: 700;
-background: -webkit-radial-gradient(#ffffff, #999999);
+background: -webkit-radial-gradient(#ffffff,rgb(5, 3, 10));
 -webkit-text-fill-color: transparent;
 -webkit-background-clip: text;
 }
@@ -142,3 +142,15 @@ footer{
     .register-box{
         border: solid gray 0.1px ;
     }
+
+    .bg-div-img{
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        padding:0px;
+        filter: blur(2px);
+        }
