@@ -1,16 +1,30 @@
 # Donatic
-A Decentralised Donation Platfrom on Polygon (currently deployed on mumbai testnet).
-NGOs can register through our website by entering details like their Name, their wallet address, their sector of working eg. Health, Education, Environment
-We will cross verify it that it is an authentic NGO or not using their alloted NGO registration ID.
-NGO's wallet address will be registered in the smart contract.
+A Platform for Donations on Polygon that is Decentralized (currently operational on mumbai testnet).
 
-HOW TO USE
-1. Open our website
-2. Open metamask extension and change the network to Polygon(currently mumbai testnet)
-3. Click on Connect Wallet button in the right side of navbar.
+NGOs have the ability to enroll via our website by providing information such as their Name, wallet address, and their field of work, for example, Health, Education, or Environment.
+
+We will authenticate the NGO by verifying their assigned NGO registration ID.
+
+The wallet address of the NGO will be added in the smart contract within their respective field. When a user selects a category, enters an amount to donate, and clicks the send button, the amount will be transferred to the balance of that particular category. Once the threshold balance is reached within that category, the total amount will be evenly distributed among all the NGOs registered under that specific category.
+
+
+
+USAGE INSTRUCTIONS
+
+1. Access our website
+
+2. Launch the metamask extension and switch the network to Polygon (presently mumbai testnet)
+
+3. Tap on the Connect Wallet button located on the right-hand side of the navigation bar.
+
 4. Connect your wallet.
-5. Scroll down and select category in which sector of NGOs you want to donate in.
-6. And Enter the amount in Matic that you want to donate.
-7. Click on Send button.
-8. Confirm the transaction on your metamask
-9. When the transaction is successful a pop up will show with success message and tx hash.
+
+5. Scroll downwards and choose the category corresponding to the sector of NGOs you wish to contribute to.
+
+6. Input the desired amount in Matic that you intend to donate.
+
+7. Select the Send button.
+
+8. Validate the transaction using your metamask.
+
+9. Once the transaction is successfully completed, a pop-up window will appear displaying a message of success along with the tx hash.
