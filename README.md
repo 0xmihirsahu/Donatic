@@ -9,6 +9,11 @@ The wallet address of the NGO will be added in the smart contract within their r
 
 
 
+Access the site
+https://0xmihirsahu.github.io/Donatic/
+
+
+
 USAGE INSTRUCTIONS
 
 1. Access our website
