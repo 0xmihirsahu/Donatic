@@ -14,7 +14,7 @@ https://0xmihirsahu.github.io/Donatic/
 
 
 
-USAGE INSTRUCTIONS
+HOW TO USE
 
 1. Access our website
 
